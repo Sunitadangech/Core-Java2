@@ -1,0 +1,8 @@
+//5)Deposite=200Rs and add deposite=150 and send you friend=500 the print the balance.
+class  Account
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
