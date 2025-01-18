@@ -1,0 +1,8 @@
+//3)1 to 20 Odd Number Addition.
+class AddOddNumber 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

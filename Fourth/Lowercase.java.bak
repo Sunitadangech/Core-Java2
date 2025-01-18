@@ -1,0 +1,8 @@
+//5>WAJP to convert lower case character to upper case and wise varsa in a given string.
+class Lowercase 
+{
+	public static void main(String[] args) 
+	{
+		String str
+	}
+}

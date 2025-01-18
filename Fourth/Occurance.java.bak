@@ -1,0 +1,8 @@
+//7>WAJP to print occurance of each character in a given string.
+class  Occurance
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,23 @@
+public class StarPattern2 {
+    public static void main(String[] args) {
+        int rows = 5;
+
+        // Loop for each row
+        for (int i = 1; i <= rows; i++) {
+            // Loop for each column
+            for (int j = 1; j <= rows; j++) {
+                // Check if the current position matches the specified column coordinates
+                if ((i == 1 && j >= 1 && j <= 5) || 
+                    (i == 2 && (j == 2 || j == 4)) ||
+                    (i == 3 && j == 5) ||
+                    (i == 4 && (j == 2 || j == 4)) ||
+                    (i == 5 && (j >= 1 && j <= 5))) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println(); // Move to the next line after each row
+        }
+    }
+}
