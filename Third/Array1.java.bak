@@ -1,0 +1,25 @@
+//1>WAJP to Seggregate array{0,1,1,0,1,0,1,1,0}.
+import java.util.Arrays;
+class Arrays1 
+{
+	public static void main(String[] args) 
+	{
+		int [] a={0,1,1,0,1,0,1,1,0};
+		for(int i=0;i<a.length;i++)
+		{
+			if(a[i]==1)
+			{
+				for(int j=i+1;j<a.length;j++)
+				{
+					if (a[j]==0)
+					{
+						int temp=a[i];
+						a[i]=a[j];
+						a[j]=temp;
+					}
+				}
+			}
+		}
+		System.out.println(Arrays.toString(a));
+	}
+}

@@ -1,0 +1,8 @@
+//3>WAJP to calculate the sum of diagonal element in given 2 Diamansional Array.
+class Sum 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

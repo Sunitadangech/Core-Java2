@@ -1,0 +1,8 @@
+//3>WAJP to calculate sum of even numbers between the range 100 and 200.
+class Sumeven 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

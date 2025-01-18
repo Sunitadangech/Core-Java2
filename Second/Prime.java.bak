@@ -1,0 +1,8 @@
+//7>WAJP to print Prime numbers in a range 1 to 100.
+class  Prime
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}
